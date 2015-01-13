@@ -1,14 +1,13 @@
-**Website PMIUM README**
+Website PMIUM README
 ==============
-**Website PMIUM**
---------------
+Website PMIUM
 
 Ruby version
-
+--------------
 ruby-2.1.4
 
 How to clone onto C9
-
+--------------
 Open up your Dashboard. Create new Workspace. Choose 'Custom'. Give it the name "website_pmium". Once your workspace is loaded, type :
 
     git init
