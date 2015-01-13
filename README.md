@@ -1,5 +1,7 @@
-##Website PMIUM README
-Website PMIUM
+**Website PMIUM README**
+==============
+**Website PMIUM**
+--------------
 
 Ruby version
 
@@ -9,9 +11,10 @@ How to clone onto C9
 
 Open up your Dashboard. Create new Workspace. Choose 'Custom'. Give it the name "website_pmium". Once your workspace is loaded, type :
 
-git init
-git remote add origin git@github.com:SafwanMarwan/websitepmium.git
-git pull --rebase origin master
+*git init*
+*git remote add origin git@github.com:SafwanMarwan/websitepmium.git*
+*git pull --rebase origin master*
+
 Note: You might need to add your cloud9 SSH keys to your github account You can get your cloud9 ssh keys by typing this:
 
 less ~/.ssh/id_rsa.pub
