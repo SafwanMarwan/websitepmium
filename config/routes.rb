@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'testmodel/home'
+  get 'home' => 'testmodel#home'
 
-  get 'testmodel/about'
+  get 'about' => 'testmodel#about'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
