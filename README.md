@@ -1,24 +1,20 @@
+##Website PMIUM README
+Website PMIUM
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Ruby version
 
+ruby-2.1.4
 
-Welcome to your Rails project on Cloud9 IDE!
+How to clone onto C9
 
-To get started, just do the following:
+Open up your Dashboard. Create new Workspace. Choose 'Custom'. Give it the name "website_pmium". Once your workspace is loaded, type :
 
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://website-pmium-safwanmarwan.c9.io/).
+git init
+git remote add origin git@github.com:SafwanMarwan/websitepmium.git
+git pull --rebase origin master
+Note: You might need to add your cloud9 SSH keys to your github account You can get your cloud9 ssh keys by typing this:
 
-Happy coding!
-The Cloud9 IDE team
+less ~/.ssh/id_rsa.pub
+Copy the output and add it to your Github account under "Settings->SSH Keys" (or if doing just for this repo, go to "Settings->Deploy Keys")
 
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+You might also be prompted that your README.md file will be overwritten. Just Delete the existing README.md file and rerun git pull --rebase origin master
