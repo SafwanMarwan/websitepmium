@@ -8,7 +8,7 @@
     "build": {
         "@builder": "auto",
         "@path": "/.c9/builders",
-        "@saveall": "true"
+        "@saveall": true
     },
     "find.nak": {
         "@searchLimit": 100
@@ -21,11 +21,13 @@
     },
     "run": {
         "@path": "/.c9/runners",
+        "@runner": "Ruby on Rails (Rails 4.0 + Ruby 2.1)",
         "configs": {
             "@inited": "true",
             "json()": {
                 "Ruby on Rails": {
                     "command": "",
+                    "debug": true,
                     "default": true,
                     "name": "Ruby on Rails",
                     "runner": "Ruby on Rails (Rails 4.0 + Ruby 2.1)"
