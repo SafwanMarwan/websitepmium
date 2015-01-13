@@ -1,7 +1,13 @@
 Rails.application.routes.draw do
+  get 'static_pages/home'
+
+  get 'static_pages/about'
+
   get 'home' => 'testmodel#home'
-  root 'testmodel#home'
+  
   get 'about' => 'testmodel#about'
+  
+  root 'static_pages#home'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
