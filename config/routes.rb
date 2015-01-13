@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'home' => 'testmodel#home'
-
+  root 'testmodel#home'
   get 'about' => 'testmodel#about'
 
   # The priority is based upon order of creation: first created -> highest priority.
