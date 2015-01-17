@@ -15,7 +15,7 @@
 /log/*.log
 /tmp
 /.c9/
-# /.c9/*
+/.c9/
 *BACKUP*
 *REMOTE*
 *BASE*
