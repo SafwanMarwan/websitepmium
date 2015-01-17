@@ -14,7 +14,12 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+/.c9
+/.c9/*
 *BACKUP*
 *REMOTE*
 *BASE*
 *LOCAL*
+.ruby-version
+*.orig
+/public/system/*
