@@ -1,1 +1,1 @@
-ROLES = ['Admin','Manager', 'Staff', 'User']
+ROLES = ['Admin', 'Editor', 'Writer']
