@@ -7,6 +7,10 @@ gem 'rails', '4.1.6'
 gem 'sqlite3'
 # Allow use of has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+# Add CanCanCan
+gem 'cancancan', '~> 1.10'
+# Add devise
+gem 'devise'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.1'
 gem 'sass-rails', '~> 4.0.3'
